@@ -1,0 +1,285 @@
+.propositoEnRuta {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border: #E41E1E solid 1px;
+}
+
+.curva{
+    display: flex;
+    width: 100%;
+    background-color: #FAFAFA;
+}
+
+.curvaMovil{
+    display: none;
+}
+
+.curvaMovil{
+    display: none;
+}
+
+.hero{
+    display: flex;
+    padding: 2rem 7rem;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+    align-self: stretch;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-color: #F0F0F0;
+}
+
+.composicion{
+    flex: 1;
+    height: 30rem;
+    position: relative;
+    text-align: center;
+}
+
+.imagenes{
+    position: absolute;
+}
+
+#banderas{
+    width: 23rem;
+    height: auto;
+    flex-shrink: 0;
+    left: 0;
+    z-index: 2;
+}
+
+#tierra{
+    width: 16rem;
+    height: 16rem;
+    flex-shrink: 0;
+    left: 40%;
+    transform: translateX(-50%);
+    top: 35%;
+    z-index: 1;
+}
+
+
+#pinGrande{
+    width: 7.4rem;
+    height: 7.4;
+    flex-shrink: 0;
+    left: 43%;
+    top: 23%;
+    z-index: 2;
+}
+
+#pinChico{
+    width: 5rem;
+    height: auto;
+    flex-shrink: 0;
+    top: 40%;
+    left: 55%;
+    z-index: 2;
+}
+
+#camion{
+    width: 25rem;
+    height: auto;
+    flex-shrink: 0;
+    left: 0;
+    transform: translateX(-5%);
+    bottom: -12%;
+    z-index: 2;
+}
+
+.texto{
+    flex: 1;
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1.5rem;
+    align-self: stretch;
+}
+
+.texto h1{
+    color: #333;
+    font-size: 2.375rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.75rem;
+}
+
+.texto p{
+    color: #333;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.375rem;
+}
+
+#bajada{
+    font-weight: 700;
+}
+
+.logos{
+    display: flex;
+    height: 2.5rem;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 0.84313rem;
+}
+
+.btn{   
+    display: flex;
+    height: 3rem;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: #E41E1E;
+    border-radius: 0.5rem;
+    border: #E41E1E;
+}
+
+button .textoBtn{
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.375rem;
+    color: #F6F9FC;
+    text-align: center;
+}
+.play{
+    width: 1rem;
+    height: 1rem;
+}
+
+.modal {
+    position: fixed;
+    top: 10%;
+    left: 5%;
+    width: 90%;
+    height: 80%;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    z-index: 999;
+}
+.modalContent {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.iframe{
+    border: 0px;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    z-index: 1000;
+}
+
+.closeButton {
+    position: absolute;
+    top: -6%;
+    right: 10px;
+    width: 15rem;
+    height: 2rem;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 0.7rem;
+    font-weight: 700;
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.closeButton p{
+    margin-right: 0.5rem;
+}
+.circulo{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: #F6F7FB;
+    width: 1.5rem;
+    height: 1.5rem;
+    z-index: 1;
+}
+.circulo svg{
+    width: 0.7rem;
+    height: inherit;
+    z-index: 5;
+}
+
+@media (max-width: 768px) {
+    .curvaMovil{
+        display: block;
+        width: 100%;
+    }
+    .curvaWeb{
+        display: none;
+    }
+    .composition{
+        display: block;
+    }
+    .hero{
+        display: block;
+        flex-direction: column;
+        gap: 0;
+        padding: 2rem 2rem 2rem 2.5rem;
+    }
+    .texto{
+        justify-content: flex-start;
+        width: 100%;
+        gap: 1.5rem;
+    }
+    #banderas{
+        width: 21rem;
+        top: -8%;
+        left: -5%;
+    }
+
+    #tierra{
+        width: 14rem;
+        height: 14rem;
+        flex-shrink: 0;
+        left: 30%;
+        transform: translateX(-50%);
+        top: 35%;
+        z-index: 1;
+    }
+
+    #pinGrande{
+        width: 6rem;
+        height: 6rem;
+        left: 55%;
+        top: 25%;
+    }
+    #pinChico{
+        width: 4rem;
+        height: 4rem;
+        top: 35%;
+        left: 75%;
+    }
+    #camion{
+        width: 15rem;
+        left: -10%;
+        bottom: 0%;
+    }
+    .btn{   
+        width: 100%;
+    }
+    .modal{
+        height: 30%;
+    }
+}

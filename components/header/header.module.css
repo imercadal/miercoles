@@ -1,0 +1,108 @@
+
+.headerContainer {
+    display: flex;
+    background-color: #F0F0F0;
+    height: 4rem;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.9rem;
+    color: #cbd4dc;
+    padding: 1.5rem 7rem;
+}
+.head {
+    display: flex;
+    width: 22rem;
+    height: 2.5rem;
+    gap: 1.5rem;
+}
+.logo {
+    display: flex;
+    height: 1.5rem;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 0.8rem;
+}
+.imagenBandera {
+    width: 1.5rem;
+    height: auto;
+    align-self: flex-start;
+}
+#andina{
+    width: 111px;
+    height: 36px;
+}
+#cocacola{
+    width: 91px;
+    height: 26px;
+}
+
+.btnidioma {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: flex-end;
+    align-items: center;
+    width: 6.5rem;
+    height: 2.5rem;
+    overflow: hidden;
+}
+
+.btnBase{
+    border-radius: 6px;
+    width: 3rem;
+    cursor: pointer;
+    background-color: #fff;
+    padding: 0.25rem 0.5rem;
+    line-height: 1.5rem;
+}
+
+.nonActive{
+    color: #CBD4DC;
+    font-weight: 500;
+    border: none;
+}
+.active{
+    color: #122e43;
+    font-weight: 600;
+    border: 1px solid #CBD4DC;
+}
+.loadbarragradiente {
+    width: 100%;
+    background-color: #e30008;
+    height: 0.5rem;
+}
+
+@media (max-width: 768px) {
+    .headerContainer {
+        height: 5rem;
+        padding: 1rem;
+    }
+    .head{
+        flex-direction: column;
+        width: 50%;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+    #andina{
+        width: 83.25px;
+        height: 27px;
+    }
+    #cocacola{
+        width: 68.25px;
+        height: 19.5px;
+    }
+    .banderas{
+        width: 4.5rem;
+    }
+    .btnidioma {
+        width: 5.5rem;
+    }
+    .btnBase {
+        width: 2.5rem;
+    }
+
+    .loadbarragradiente {
+        height: 0.4rem;
+    }
+}

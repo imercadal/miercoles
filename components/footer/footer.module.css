@@ -1,0 +1,198 @@
+.footerContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: #FAFAFA;
+}
+
+.curvaWeb{
+    display: flex;
+    height: 7.5rem;
+    width: 100%;
+    z-index: 2;
+}
+
+.fondoGris{
+    height: 7.5rem;   
+    background-color: #F0F0F0;;
+    position: relative;
+    z-index: 1;
+}
+
+.curvaMovil{
+    display: none;
+}
+
+.head{
+    display: flex;
+    padding-top: 4.5rem;
+    padding: 2rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.logos{
+    display: inline-flex;
+    height: auto;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 0.8rem;
+    flex-shrink: 0;
+}
+
+#logoCocaCola{
+    width: 7rem;
+}
+#logoAndina{
+    width: 5.6rem;
+}
+
+.banderas{
+    display: flex;
+    height: 1rem;
+    align-items: center;
+    gap: 0.3rem;
+    object-fit: contain;
+}
+
+.imagenBandera{
+    height: 100%;
+    width: 100%;
+}
+
+.composicion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    width: 53rem;
+    height: 30rem;
+    margin-bottom: 7rem;
+}
+
+.imgContainer {
+    max-width: 100%;
+    position: absolute;
+    left: 0;
+}
+#camion{
+    bottom: -10%;
+    left: -10%;
+}
+#nube3{
+    left: -5%;
+}
+#nube1{
+    left: -8%;
+}
+#pin, #nube1, #nube2, #nube3{
+    z-index: 10;
+}
+
+#pin{
+    width: 8rem;
+    height: 8rem;
+    position: relative;
+    margin: 0 0 20rem 10rem;
+}
+
+.barra{
+    align-self: stretch;
+    width: 100%;
+    height: 0.5rem;
+    background-color: #E30008;
+    position: absolute;
+    bottom: 0;
+}
+
+@media (max-width: 768px) { 
+    .section{
+        width: 100%;
+        overflow: hidden;
+    }
+    .footerContainer{
+        width: 100%;
+    }
+    .curvaWeb{
+        display: none;
+    }
+
+    .curvaMovil{
+        display: inline;
+        width: 100%;
+    }
+
+    .fondoGris{
+        height: 50px;
+    }
+    .head{
+        margin-top: 3rem;
+        padding: 0;
+    }
+    .logos{
+        height: 90%;
+    }
+    #logoCocaCola{
+        width: 8rem;
+    }
+    #logoAndina{
+        width: 6rem;
+    }
+
+    .banderas{
+        display: flex;
+        height: 1.5rem;
+        align-items: center;
+        gap: 0.5rem;
+    }
+    .imagenBandera{
+        width: 2.5rem;
+        height: auto;
+    }
+    .composicion{
+        height: 20rem;
+    }
+    .imgContainer {
+        scale: 0.55;
+    }
+    #pin{
+        width: 5rem;
+        height: 5rem;
+        right: 5%;
+        top: 5%;
+    }
+    #arcoiris{
+        left: 5%;
+    }
+    #almacen{
+        left: 2%;
+    }
+    #camion{
+        scale: 0.65;
+        bottom: -35%;
+        left: 3%;
+    }
+    #nube2, #nube3{
+        left: 0;
+    }
+    #nube1{
+        left: -3%;
+    }
+
+};
+
+/*
+    
+
+    .pin{
+        width: 4rem;
+        height: auto;
+        top:30%;
+        left: -18%;
+    }
+*/

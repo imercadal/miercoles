@@ -1,0 +1,216 @@
+.container {
+    display: flex;
+    padding: 2rem 7rem 4rem 7rem;
+    justify-content: center;
+    align-items: center;
+    background-color: #F0F0F0;
+    gap: 2.5rem;
+}
+
+.textoContainer{
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2.5rem;
+    padding: 5rem 0 5rem 7rem;
+    flex-shrink: 0;
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+    align-self: stretch;
+    color: #333;
+}
+.texto h1{
+    font-size: 2rem;
+    line-height: 1.3;
+}
+.texto h3{
+    font-size: 1.5rem;
+
+}
+.texto p{
+    line-height: 1;
+}
+
+.video img{
+    line-height: 0.5rem;
+    align-self: stretch;
+    color: #333;
+}
+
+.btn{
+    display: flex;
+    height: 3rem;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: #E41E1E;
+    border-radius: 0.5rem;
+    border: #E41E1E;
+}
+
+.textoBtn{
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    color: #F6F9FC;
+    text-align: center;
+}
+.play{
+    width: 1rem;
+    height: 1rem;
+}
+
+.video{
+    display: flex;
+    flex: 2;
+    justify-content: left;
+    align-items: center;
+}
+
+#imgPeirano{
+    width: 23.8rem;
+    height: 32rem;
+    flex-shrink: 0;
+    border-radius: 62.5rem;
+    box-shadow: 2px 20px 26.3px 0px rgba(0, 0, 0, 0.17);
+    object-fit: cover;
+}
+
+.modal {
+    position: fixed;
+    top: 10%;
+    left: 5%;
+    width: 90%;
+    height: 70%;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    z-index: 999;
+}
+.iframe{
+    border: 0px;
+}
+.modalContent {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    z-index: 1000;
+}
+
+.closeButton {
+    position: absolute;
+    top: -6%;
+    right: 10px;
+    width: 15rem;
+    height: 2rem;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 0.7rem;
+    font-weight: 700;
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.closeButton p{
+    margin-right: 0.5rem;
+}
+.circulo{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: #F6F7FB;
+    width: 1.5rem;
+    height: 1.5rem;
+    z-index: 1;
+}
+.circulo svg{
+    width: 0.7rem;
+    height: inherit;
+    z-index: 5;
+}
+
+
+@media (max-width: 768px) { 
+    .container {
+        flex-direction: column;
+        padding: 3rem 2rem 4rem 2rem;
+        overflow: hidden;
+    }
+    .textoContainer{
+        padding: 0;
+        margin-top: 18rem;
+    }
+    .texto{
+        gap: 0;
+    }
+    .texto h3{
+        font-size: 1.4rem;
+    }
+    .texto h1{
+        font-size: 1.8rem;
+        line-height: 2.2rem;
+        margin: 1.5rem 0;
+    }
+    .texto p{
+        font-size: 0.9rem;
+        line-height: 1.7rem;
+    }
+
+    .video{
+        order: -1;
+        height: 18rem;
+        width: 18rem;
+        position: relative;
+    }
+    #imgPeirano{
+        width: inherit;
+        height: inherit;
+        border-radius: 50%;
+        position: absolute;
+        object-fit: cover;
+        object-position: 5% 25%;
+    }
+    .btn{   
+        width: 100%;
+    }
+    .modal{
+        width: 100%;
+    }
+}
+
+@media (min-width: 1536px){
+    .video{
+        flex: 2;
+    }
+    .textoContainer{
+        flex: 3;
+    }
+    .texto{
+        max-width: 800px;
+    }
+    .container {
+        padding: 2rem 10rem 4rem 10rem;
+    }
+}

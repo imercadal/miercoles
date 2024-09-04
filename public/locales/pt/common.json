@@ -1,0 +1,70 @@
+{
+    "hero": {
+        "bajada_hero": "Reúna-se para todo canto para refrescar momentos e oportunidades abertas.",
+        "boton_reproducir": "Reproduzir video"
+    },
+    "propositos": {
+        "creando_titulo": "Criando nosso propósito...",
+        "cardOne_titulo": "O que é um propósito organizacional?",
+        "cardOne_texto": "É a razão da existência de uma empresa. Aquilo que dá sentido ao que fazemos no dia a dia. Tem como objetivo responder à pergunta: Por que fazemos o que fazemos?",
+        "cardTwo_titulo": "Como descobrimos nosso propósito?",
+        "cardTwo_texto": "Foi um processo participativo que incluiu mais de 1.000 pessoas nos 4 países onde a Andina está presente. Clientes e outros stakeholders importantes também foram incluídos por meio de entrevistas, grupos focais e pesquisas.",
+        "cardThree_titulo": "Por que elevamos nosso propósito agora e não antes?",
+        "cardThree_texto": "Este esforço vem consolidar-nos como uma única grande empresa presente em 4 países, que já definiu a sua cultura partilhada, uma estratégia e agora um propósito único para todos.",
+        "cardFour_titulo": "Como isso se relaciona com nossa visão e valores?",
+        "cardFour_texto": "O propósito dá sentido ao que fazemos e ao que aspiramos coletivamente. Através dele são guiadas as definições estratégicas que estão explícitas na visão e que são executadas através dos nossos valores."
+        
+    },
+    "transicion": {
+        "izquierda": "A magia",
+        "derecha": "servir"
+    },
+    "nuestroProposito": {
+        "nuestro": "Nosso"
+    },
+    "viveProposito": {
+        "titulo": "Propósito Vivo",
+        "bajada_vivo": "Nosso Propósito é o guia que orienta nossas decisões, por que fazemos o que fazemos. Convidamos você a rever como o Propósito da Andina se conecta com os propósitos pessoais de quem realiza nosso trabalho diário e com as diferentes áreas de nossa organização.",
+        "cardOne_titulo": "Paula Podestá | Industriais | Chile",
+        "cardOne": "A Fábrica da Felicidade é um dos ícones do nosso Propósito, vamos acompanhar a Paula para explorar o seu propósito e o das nossas funções industriais.",
+        "cardTwo_titulo": "Gizele de Souza & Rosilene Cupertino | TI | Brasil",
+        "cardTwo": "Através da tecnologia conseguimos nos conectar de forma mais ágil e precisa com todos os nossos stakeholders. Junto com Gizele e Rosilene exploramos a conexão direta que nosso Propósito tem com a tecnologia e nossas áreas de TI.",
+        "cardThree_titulo": "César Britos e Nicolas Solis | Logística | Paraguai",
+        "cardThree": "Da área de logística do Paraguai, Cesar e Nico Solis nos convidam a conhecer como nosso poder logístico nos ajuda a chegar a cada canto.",
+        "cardFour_titulo": "Yanina Tomasetti e Erica Tkaczuk | Jurídico | Argentina",
+        "cardFour": "Yanina e Érica nos dão uma visão de seus propósitos pessoais e mostram como nossas áreas jurídicas apoiam e impulsionam nosso propósito.",
+        "cardFive_titulo": "Mara Rey | Sustentabilidade | Corporação",
+        "cardFive": "A sustentabilidade está no centro de tudo o que fazemos, Mara nos convida a aprofundar e aprender mais.",
+        "cardSix_titulo": "Viviane Martins e Marta Drumond | Finanças | Brasil",
+        "cardSix": "Uma boa gestão financeira é essencial no nosso caminho para o crescimento sustentável. Vamos desvendar esse percurso junto com os propósitos pessoais de Viviane e Marta."
+    },
+    "rutas": {
+        "titulo": "Nossas rotas",
+        "bajada_rutas": "Nosso propósito nos conecta com uma jornada que abrange o passado, o presente e o futuro. Explore a galeria e descubra junto conosco quais são os pilares sobre os quais construímos nosso Propósito.",
+        "comunidades": "Sempre avançamos juntos, de mãos dadas com nossas comunidades. Nosso objetivo é gerar valor social e ser agentes que abrem oportunidades de mudança positiva.",
+        "transformacion-titulo": "Transformação digital",
+        "transformacion-texto": "Os avanços no mundo digital abrem novas rotas para alcançarmos juntos novos cantos e encontrarmos novas maneiras de nos atualizarmos.",
+        "sustentabilidad-titulo": "Sustentabilidade",
+        "sustentabilidad-texto": "Nos esforçamos todos os dias para avançar, buscando abrir oportunidades para o meio ambiente e cuidando do nosso caminho de crescimento sustentável.",
+        "innovacion-titulo": "Inovação",
+        "innovacion-texto": "Num mundo em constante mudança, a imaginação, a criatividade e a inovação abrem novos caminhos para refrescar momentos em cada recanto.",
+        "clientes": "Nossos clientes e consumidores, seus sonhos, necessidades e aspirações são o norte que guia todas as nossas decisões.",
+        "tech-titulo": "Tecnologia",
+        "tech-texto": "A tecnologia nos impulsiona, ajudando a conectar e refrescar cada canto, criando novas oportunidades que refletem nosso compromisso com um futuro mais inclusivo e sustentável.",
+        "multi-titulo": "Multicategorias",
+        "multi-texto": "Aspiramos a um portfólio amplo e tão diverso quanto nossos clientes e consumidores. Queremos estar presentes e refrescar todas as ocasiões de alegria.",
+        "talento-titulo": "Talento e desenvolvimento",
+        "talento-texto": "As pessoas são o elemento fundamental da nossa fórmula secreta. Seu compromisso, desenvolvimento e cuidado estão no centro da nossa gestão."
+    },    
+    "propositoEnRuta": {
+        "titulo": "Propósito na rota",
+        "proposito-texto": "Unte-se a nós para revelar o Propósito da Coca-Cola Andina. Embarque em uma jornada inspiradora cheia de histórias, marcos e desafios.",
+        "dale-click": "Se você estiver pronto, aperte o play em nosso “Propósito na Estrada\"",
+        "boton_reproducir": "Reproduzir video"
+    },
+    "clientes": {
+        "bajada": "“Para alcançar \n\ntodos os cantos juntos \n\npara refrescar momentos \n\ne abrir oportunidades.”",
+        "gcRol": "Vicepresidente Executivo Coca-Cola Andina",
+        "boton_reproducir": "Reproduzir video"
+    }
+}

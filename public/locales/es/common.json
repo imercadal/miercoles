@@ -1,0 +1,70 @@
+{
+    "hero": {
+        "bajada_hero": "Llegar juntos a todos los rincones para refrescar momentos y abrir oportunidades.",
+        "boton_reproducir": "Reproducir video"
+    },
+    "propositos": {
+        "creando_titulo": "Creando nuestro propósito...",
+        "cardOne_titulo": "¿Qué es un propósito organizacional?",
+        "cardOne_texto": "Es la razón de existir de una empresa. Eso que entrega sentido a lo que hacemos en nuestro día a día. Apunta a responder a la pregunta ¿Para qué hacemos lo que hacemos?.",
+        "cardTwo_titulo": "¿Cómo descubrimos nuestro propósito?",
+        "cardTwo_texto": "Fue un proceso participativo que incluyó a más de 1.000 personas en los 4 países en los que andina está presente. Se incluyó también a clientes y otros stakeholders claves por medio de entrevistas, focus groups y encuestas.",
+        "cardThree_titulo": "¿Por qué levantamos nuestro propósito ahora y no antes?",
+        "cardThree_texto": "Este esfuerzo llega para terminar de consolidarnos como una sola gran compañía presente en 4 países, que ya tiene definida su cultura compartida, una estrategia y ahora un único propósito para todos.",
+        "cardFour_titulo": "¿Cómo se relaciona esto con nuestra visión y valores?",
+        "cardFour_texto": "El propósito da sentido a lo que hacemos y a lo que aspiramos colectivamente. A través de él se orientan las definiciones estratégicas que quedan explícitas en la visión y que se ejecutan a través de nuestros valores."
+        
+    },
+    "transicion": {
+        "izquierda": "La magia",
+        "derecha": "de servir"
+    },
+    "nuestroProposito": {
+        "nuestro": "Nuestro"
+    },
+    "viveProposito": {
+        "titulo": "Vive Propósito",
+        "bajada_vivo": "Nuestro Propósito es la guía que orienta nuestras decisiones, el por qué hacemos lo que hacemos. Los invitamos a revisar cómo el Propósito de Andina se conecta con los propósitos personales de quienes llevan adelante nuestro día a día, y con las distintas áreas de nuestra organización.",
+        "cardOne_titulo": "Paula Podesta | Industrial | Chile",
+        "cardOne": "La Fábrica de la Felicidad es uno de los iconos de nuestro Propósito, acompañemos a Paula a recorrer su propósito y el de nuestras funciones industriales.",
+        "cardTwo_titulo": "Gizele de Souza & Rosilene Cupertino | TI | Brasil",
+        "cardTwo": "A través de la tecnología logramos conectar de forma más ágil y precisa con todos nuestros stakeholders. Junto a Gizele y Rosilene exploramos la conexión directa que nuestro Propósito tiene con la tecnología y nuestras áreas de TI.",
+        "cardThree_titulo": "Cesar Britos & Nicolas Solis | Logistica | Paraguay",
+        "cardThree": "Desde el área logística de Paraguay, Cesar y Nico Solis nos invitan a conocer cómo nuestra potencia logistica nos ayuda a llegar a todos los rincones.",
+        "cardFour_titulo": "Yanina Tomasetti & Erica Tkaczuk | Legal | Argentina",
+        "cardFour": "Yanina y Erica nos abren una ventana a sus propósitos personales y enseñan cómo nuestras áreas legales sostienen y dan impulso a nuestro propósito.",
+        "cardFive_titulo": "Mara Rey | Sostenibilidad | Corp",
+        "cardFive": "La sostenibilidad está en el centro de todo lo que hacemos, Mara nos invita a adentrarnos y conocer más.",
+        "cardSix_titulo": "Viviane Martins & Marta Drumond| Finanzas | Brasil",
+        "cardSix": "Una buena administración de finanzas es fundamental en nuestro camino de crecimiento sustentable. Destapemos esta ruta junto a los propósitos personales de Viviane y Marta."
+    },
+    "rutas": {
+        "titulo": "Nuestras rutas",
+        "bajada_rutas": "Nuestro propósito nos conecta con una ruta al pasado el presente y el futuro revisa la galería y descubramos juntos cuáles son los pilares sobre los que construimos nuestro Propósito.",
+        "comunidades": "Avanzamos juntos, siempre de la mano de en nuestras comunidades. Aspiramos a generar valor social y ser agentes que abran oportunidades de cambio positivo.",
+        "transformacion-titulo": "Transformación digital",
+        "transformacion-texto": "Los avances en el mundo digital abren nuevas rutas para llegar juntos a nuevos rincones y encontrar nuevas maneras de refrescar.",
+        "sustentabilidad-titulo": "Sustentabilidad",
+        "sustentabilidad-texto": "Nos esforzamos día a día por avanzar buscando abrir oportunidades al medio ambiente y cuidando nuestro camino de crecimiento sustentable.",
+        "innovacion-titulo": "Innovación",
+        "innovacion-texto": "En un mundo en constante cambio la imaginación, creatividad e innovación abren nuevas rutas para refrescar momentos en todos los rincones.",
+        "clientes": "Nuestros clientes y consumidores, sus sueños, necesidades y aspiraciones son el norte que guía todas nuestras decisiones.",
+        "tech-titulo": "Tecnología",
+        "tech-texto": "La tecnología impulsa nos ayuda a conectar y refrescar cada rincón, y creando nuevas oportunidades que reflejan nuestro compromiso con un futuro más inclusivo y sostenible.",
+        "multi-titulo": "Multicategoría",
+        "multi-texto": "Aspiramos a un portafolio amplio y tan diverso con nuestros clientes y consumidores, queremos estar presentes y poder refrescar todas las ocasiones de alegría.",
+        "talento-titulo": "Talento y desarrollo",
+        "talento-texto": "Las personas son el elemento fundamental de nuestra fórmula secreta su compromiso desarrollo y cuidado están en el centro de nuestra gestión."
+    },
+    "propositoEnRuta": {
+        "titulo": "Propósito en Ruta",
+        "proposito-texto": "Acompáñanos a develar el Propósito de Coca-Cola Andina. Súbete a un inspirador recorrido lleno de historias, hitos y desafíos.",
+        "dale-click": "Si estás listo, dale play a nuestro “Propósito en Ruta\"",
+        "boton_reproducir": "Reproducir video"
+    },
+    "clientes": {
+        "bajada": "“Llegar juntos a \n\ntodos los rincones \n\npara refrescar momentos \n\ny abrir oportunidades.”",
+        "gcRol": "Vicepresidente ejecutivo Coca-Cola Andina",
+        "boton_reproducir": "Reproducir video"
+    }
+}
